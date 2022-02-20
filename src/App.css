@@ -1,0 +1,445 @@
+.App {
+  text-align: center;
+}
+
+.mainDivision {
+  height: 300px;
+  width: 100%;
+}
+
+.userImage {
+  padding: 4rem;
+  text-align: left;
+  padding-top: 2rem;
+  display: block;
+  display: flex;
+}
+
+.userImage-1 {
+  padding: 4rem;
+  text-align: left;
+  padding-top: 5rem;
+  display: block;
+  display: flex;
+}
+
+.description_title {
+  margin-left: 32px;
+  width: 400px;
+  padding: 16px;
+  height: 10rem;
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+.experience_title {
+  margin-left: 100px;
+  width: 300px;
+  padding: 16px;
+  height: 10rem;
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  display: inline-block;
+}
+
+.project-span {
+  padding-top: 0.5rem;
+  font-weight: 700;
+}
+.project-div {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.project-div-level-2 {
+  position: absolute;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  display: inline-block;
+}
+
+/* Typewritter animation text */
+@keyframes typewriter {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes caret {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes text1 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  10%,
+  40% {
+    width: 5.5em;
+  }
+}
+
+@keyframes text2 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  10%,
+  40% {
+    width: 13.5rem;
+  }
+}
+
+.text_1 {
+  animation: text1;
+}
+.text_2 {
+  animation: text2;
+}
+
+.text_1,
+.text_2 {
+  padding-top: 0.5rem;
+  font-weight: 700;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 8s;
+  animation-timing-function: steps(10, end);
+  animation-iteration-count: infinite;
+}
+.text_1::after,
+.text_2::after {
+  content: "|";
+  font-weight: 700;
+  color: red;
+  position: absolute;
+  right: 0;
+  animation: typewriter infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+.image__props {
+  padding: 0.5rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.sym_props {
+  width: 25px;
+  height: 25px;
+  border-radius: 25%;
+}
+
+.language-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.language-div-2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: -3%;
+}
+
+.language-div-level-2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 3%;
+}
+
+.react-span {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+  padding-top: 1rem;
+  padding-right: 5rem;
+}
+.react-span-a {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  width: 10rem;
+}
+
+.react-span-1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+  padding-top: 1rem;
+  padding-right: 5rem;
+}
+.react-span-a-1 {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  width: 12rem;
+}
+
+.react-span-2 {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+  padding-top: 1rem;
+}
+.react-span-a-2 {
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 10px;
+  width: 10rem;
+}
+
+.link-img-1 {
+  margin-left: 10rem;
+}
+.link-img-2 {
+  margin-left: 5rem;
+}
+
+.line-div {
+  position: absolute;
+  margin-top: 12rem;
+  padding-left: 46%;
+}
+
+.name__underImg {
+  top: 0;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.description {
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.company_des {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about_me {
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+div {
+  display: block;
+}
+
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px_custom {
+  margin-top: 13rem;
+}
+
+.sm-col-9 {
+  width: 75%;
+}
+
+.sm-col-3 {
+  width: 25%;
+}
+
+.sm-col-6 {
+  width: 50%;
+}
+
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+.row {
+  display: inline-flex;
+}
+
+.about_me_paragraph {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 2.5rem;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+}
+
+.interest_paragraph {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 1rem;
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+}
+
+.contact-col {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 0rem;
+  text-align: center;
+  display: block;
+  margin-block-start: 1.5em;
+}
+
+.feedback-col {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-left: 5.5rem;
+  text-align: left;
+  display: block;
+  margin-block-start: 1em;
+}
+
+.contacts {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.redirect_column {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0;
+  padding: 0.5rem;
+  text-align: center;
+  display: block;
+  margin-block-start: 1rem;
+}
+
+.linespacing {
+  padding: 25px;
+}
+
+.align_rating {
+  align-self: center;
+  padding: 1rem;
+}
+
+.footer_div {
+  height: 1000px;
+  background: grey;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.field_style {
+  margin-left: 4rem;
+}
+
+.trainee {
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+.exp-trainee {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  font-weight: 700;
+  position: absolute;
+}
+
+.feedback {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  background: grey;
+  text-align: left;
+  color: #fff;
+  font-size: 0.75em;
+  display: inline-block;
+  border-radius: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.feedback-name {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.root {
+  border-color: "orange";
+}
+
+.navigateToTop {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -5rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .userImage {
+    padding: 3.5rem;
+    text-align: left;
+    padding-top: 10rem;
+    display: inline-block;
+  }
+  .userImage-1 {
+    padding: 4rem;
+    text-align: left;
+    padding-top: 5rem;
+    display: inline-block;
+  }
+
+  .description_title {
+    flex-wrap: wrap;
+    margin-left: -3rem;
+    width: 100%;
+    padding: 16px;
+    height: 10rem;
+    background: black;
+    color: white;
+    border-radius: 2rem;
+    /* position: absolute; */
+    margin-top: 13rem;
+  }
+  .experience_title {
+    flex-wrap: wrap;
+    margin-left: -2rem;
+    width: 400px;
+    padding: 16px;
+    height: 10rem;
+    background: black;
+    color: white;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-top: 20rem;
+  }
+}
