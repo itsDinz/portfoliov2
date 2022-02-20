@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://itsDinz.github.io/myportfolio",
+  "homepage": "https://itsDinz.github.io/portfoliov2",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.7",
