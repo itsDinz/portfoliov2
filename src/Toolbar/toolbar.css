@@ -1,0 +1,56 @@
+.toolbar_header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  text-align: left;
+  width: 98.5%;
+  background: black;
+  height: 8rem;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.toolbar__navigation {
+  display: flex;
+  height: 100%;
+  padding: 0 1rem;
+  align-items: center;
+}
+.toolbar__logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar_navigationItems a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_align {
+  align-self: center;
+}
+
+@media screen and (max-width: 992px) {
+  .toolbar_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    text-align: left;
+    width: 98%;
+    background: black;
+    height: 8rem;
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+}
